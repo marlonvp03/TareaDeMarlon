@@ -17,7 +17,7 @@ if parte1 == "FORZAR":
                 parte5 = input("\nBajas al jardin. Varios perros te ven y corren hacia ti. ¿Intentas CORRER, TREPAR un arbol o LANZAR carne?. : ").strip().upper()
 
                 if parte5 == "TREPAR":
-                    parte6 = input("\nDesde el arbol ves la salida. ¿Saltas la CERCA, esperas el AMANECER o pides AUXILIO?. : ").strip().upper()
+                    parte6 = input("\nDesde el arbol ves la salida. ¿Decides saltar la CERCA, esperas el AMANECER o pides AUXILIO?. : ").strip().upper()
 
                     if parte6 == "CERCA":
                         print("\n¡LOGRASTE ESCAPAR! Eres libre.")
